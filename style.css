@@ -1,0 +1,119 @@
+/* Formatting on the landing page for my selfie */
+#selfie {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 80%;
+}
+/* Separate the content from the top of the page*/
+#welcome {
+    margin-top: 10%;
+}
+
+
+
+/* Style the navbar */
+.navbar {
+    border: 4px solid black;
+    box-shadow: 7px 7px 5px;
+    font: 100% Georgia, serif;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 5% 5%;
+    background-color: white;
+    color: black;
+}
+
+.nav {
+    font-family: 'Literata', serif;
+    color: rgb(161, 161, 161);
+    margin-bottom: 4%;
+}
+/* Style the navbar anchor tags */
+.nav a {
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Large text */
+h1 {
+    font-family: 'Literata', serif;
+    font-size: 50px;
+}
+/* Subtext */
+h2 {
+    font-family: 'Literata', serif;
+    font-size: 26px;
+}
+
+
+/* Twine theme */
+.twine {
+    border: 4px solid black;
+    box-shadow: 7px 7px 5px;
+    font: 100% Georgia, serif;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 5% 5%;
+    background-color: white;
+    color: black;
+}
+
+/* Twine theme for each project in the project page */
+.twine.category {
+    padding: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+#gameWriting {
+    display: none;
+}
+
+#programmingWriting {
+    display: none;
+}
+
+
+
+
+  
+
+  .hoverAction:hover {
+      opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* kinda hacky, had to adjust the parent container's background rather than the FontAwesome svg directly like the others */
+  .instaSpecial {
+    font-size: 50px; 
+    background: linear-gradient(45deg, #405de6, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Twitter */
+  .fa-twitter-square {
+    background: white !important;
+    color: #55ACEE !important;
+  }
+
+  /* Steam */
+  .fa-github-square {
+      background: white;
+      color: black;
+  }
+
+  /* Medium */
+  .fa-medium {
+      background: black;
+      color: #00ab6c;
+  }
+
+
+  /* linear-gradient(45deg, #405de6, #5851db, #c13584, #e1306c, #fd1d1d) */

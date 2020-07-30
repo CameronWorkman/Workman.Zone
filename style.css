@@ -35,6 +35,20 @@
     font-weight: bold;
 }
 
+#about-page-image {
+    border: 4px solid black;
+    float: right;
+}
+
+#about-page-image-container {
+    border: 4px solid black;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 5px;
+    width: 40%;
+    float: right;
+    padding: 5% 5%;
+    margin: 0% 0% 5% 5%;
+}
 
 /* Large text */
 h1 {
@@ -64,22 +78,9 @@ h2 {
 /* Twine theme for each project in the project page */
 .twine.category {
     padding: 2%;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
     text-align: center;
-}
-
-#gameWriting {
-    display: none;
-}
-
-#programmingWriting {
-    display: none;
-}
-
-
-
-
-  
+}  
 
   .hoverAction:hover {
       opacity: 0.7;
